@@ -1,0 +1,9 @@
+server:
+  ssl:
+    key-store: classpath:mycert.p12
+    key-store-password: mykspwd
+    key-alias: mykey    
+    key-password: mykeypwd    
+    
+  port: 8443
+
